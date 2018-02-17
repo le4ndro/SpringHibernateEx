@@ -26,7 +26,7 @@ public class EmpregadoDaoImpl extends AbstractDao implements EmpregadoDao {
     @Override
     public void deleteEmpregadoByMatricula(String matricula) {
         Query query = getSession().createSQLQuery(
-                "delete from empregado where matricula = :matricula");
+                "delete from EMPREGADO where MATRICULA = :matricula");
         query.setString("matricula", matricula);
         query.executeUpdate();
     }
