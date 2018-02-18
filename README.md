@@ -1,6 +1,6 @@
 # SpringHibernateEx
 
-Sample project using Spring 4 and Hibernate Projeto exemplo utilizando Spring 4 e Hibernate 4 and annotations.
+Sample project using Spring 4 and Hibernate with annotations.
 
 ## Getting Started
 
